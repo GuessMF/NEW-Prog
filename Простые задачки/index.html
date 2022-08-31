@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Easy</title>
+</head>
+<body>
+    
+<div class="container1">
+    <h1>Калькуляторы</h1>
+    <h3>Площадь и периметр прямоугольника</h3>
+    <input class="inputs" id='a' type="text" placeholder="a" value="">
+    
+    <input class="inputs" id="b" type="text" placeholder="b">
+    <br>
+   <button class= 'buttons' onclick="ploshad()" >S</button>
+   <button class= 'buttons' type="submit" onclick="perimetr()">P</button>
+    <p>Ответ:<a id="answ1"></a> </p>    
+</div>
+
+<div class="container1">
+    <h3>Площадь и периметр квадрата</h3>
+    <input class="inputs" id='c' type="text" placeholder="a">
+    <br>
+    <button class= 'buttons' onclick="ploshadKv()">S</button>
+    <button class= 'buttons' onclick="perimetrKv()">P</button>
+    <p>Ответ:<a id="answ2"></a> </p>
+
+</div>
+
+<div class="container1">
+
+<h3>Площадь круга и длина окружности через радиус</h3>
+<input class ='inputs' id="r" type="text"  placeholder="R">
+<br>
+<button class="buttons" onclick="ploshadKr()">S</button>
+<button class="buttons" onclick="perimetrKr()">P</button>
+<p>Ответ: <a id="answ3"></a></p>
+
+</div>
+
+<div class="container1">
+
+<h3>Площадь треугольника по трем сторонам</h3>
+<input class = 'inputs' id="aa" type="text" placeholder="A">
+<input class = 'inputs' id="bb" type="text" placeholder="B">
+<input class = 'inputs' id="cc" type="text" placeholder="C">
+<br>
+<button class="buttons" onclick="ploshadTr()">S</button>
+<p> Ответ: <a id="answ4"></a></p>
+</div>
+
+
+
+<div class="container1">
+    <h3> Угадай число</h3>
+
+    <input class = 'inputs' id="userNum" type="text" placeholder="1-100">
+<br>
+<button id="bb" class="buttons" onclick="timer()">start</button> 
+<br>
+    <button class="buttons" onclick="randomNum()"> Try </button>
+<br>
+<a id="answ5"></a>
+<p>Количество попыток =  <a id="trys"></a></p>
+<p> Таймер : <input type="text" value="60" id="test">
+    
+</p>
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

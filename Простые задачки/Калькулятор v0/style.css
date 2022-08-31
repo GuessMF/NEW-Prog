@@ -1,0 +1,27 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.container{
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.button{
+width: 50px;
+height: 50px;
+border: rgb(48, 166, 75) 1px solid;
+border-radius: 50%;
+background-color: rgb(48, 166, 75);
+font-size: 20px;
+}
+.input{
+width: 210px;
+height: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+border: rgb(239, 210, 173) 1px solid;
+border-radius: 5%;
+background-color: rgb(239, 210, 173);
+}

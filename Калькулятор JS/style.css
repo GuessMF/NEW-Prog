@@ -1,0 +1,18 @@
+.but{
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.input{
+    width: 300px;
+    height: 100px;
+}
+
+#test{
+  font-size: 40px;
+}
